@@ -12,6 +12,7 @@ import java.util.Properties;
 public class MailImpl implements Mail {
     @Override
     public void sendmail(String accmail) throws Exception{
+
         //设置
         Properties prop = new Properties();
         prop.setProperty("mail.host", "smtp.qq.com");  //设置QQ邮件服务器

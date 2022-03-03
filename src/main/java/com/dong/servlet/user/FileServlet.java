@@ -30,6 +30,7 @@ public class FileServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+
         //创建上传文件的路径，不存在则创建
         String uploadPath = this.getServletContext().getRealPath("/WEB-INF/upload");//获取/WEB-INF下的/upload路径
         File uploadFile = new File(uploadPath);//创建一个文件对象

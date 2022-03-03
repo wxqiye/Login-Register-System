@@ -29,6 +29,7 @@ public class LoginServlet extends HttpServlet {
         //从req中取得参数
         String userCode = req.getParameter("userCode");
         String userPassword = req.getParameter("userPassword");
+
         //调用login方法，查询用户是否存在。
         UserService userService = new UserServiceImpl();
         User user = userService.login(userCode,userPassword);

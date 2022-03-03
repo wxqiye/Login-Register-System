@@ -13,6 +13,7 @@
     生日:<input type="text" name="birthday"/><br>
     电话:<input type="text" name="phone"/><br>
     <button type="submit">修改</button>
+
 </form>
 </body>
 </html>

@@ -3,6 +3,7 @@
 * */
 
 package com.dong.pojo;
+
 import java.util.Date;
 public class User {
     //静态属性

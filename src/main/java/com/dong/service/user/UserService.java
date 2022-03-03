@@ -9,6 +9,7 @@ package com.dong.service.user;
 import com.dong.pojo.User;
 
 public interface UserService {
+
     public User login(String userCode, String password);
     public int register(String userCode, String password,String email);
     public int update(String userCode,String userName, String birthday,String phone);

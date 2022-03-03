@@ -11,6 +11,7 @@
     <p>上传头像：<input type="file" name="file1"></p>
     <p><input type="submit" value="点击上传"> | <input type="reset" value="重置"></p>
 
+
 </form>
 </body>
 </html>
