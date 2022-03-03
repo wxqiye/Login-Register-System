@@ -13,7 +13,6 @@
     密码:<input type="text" name="userPassword"/><br>
     邮箱：<input type="text" name="email"><br/>
     <button type="submit">注册</button>
-
 </form>
 </body>
 </html>

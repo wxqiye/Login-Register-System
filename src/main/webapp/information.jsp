@@ -11,7 +11,6 @@
 <img src=rpath width="30"/> <br/>
 这是头像网址：<br/>
 <%= request.getSession().getAttribute(Constants.USER_PATH)%>
-
 <h1>个人信息</h1><br/>
 用户名:<%=request.getSession().getAttribute(Constants.USER_NAME)%><br/>
 生日:<%=request.getSession().getAttribute(Constants.USER_BIRTHDAY)%><br/>

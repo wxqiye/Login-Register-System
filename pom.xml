@@ -7,8 +7,6 @@
     <artifactId>Login-Register-System</artifactId>
     <version>1.0.o-SNAPSHOT</version>
     <packaging>war</packaging>
-
-
     <dependencies>
         <dependency>
             <groupId>junit</groupId>

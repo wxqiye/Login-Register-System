@@ -16,3 +16,4 @@ public interface UserDao {
     public int getUpdateUser(Connection connection, String userCode,String userName,String birthday,String phone) throws SQLException;
     public int getUploadUser(Connection connection, String userCode,String path) throws SQLException;
 }
+

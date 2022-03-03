@@ -28,7 +28,6 @@ public class UploadServlet extends HttpServlet {
         doPost(req, resp);
 
     }
-
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         //请求转发，由FileServlet具体实现头像文件的上传。

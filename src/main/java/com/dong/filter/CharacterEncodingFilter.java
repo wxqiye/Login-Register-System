@@ -6,7 +6,6 @@ package com.dong.filter;
 import javax.servlet.*;
 
 import java.io.IOException;
-
 public class CharacterEncodingFilter implements Filter {
     public void init(FilterConfig filterConfig) throws ServletException {
         System.out.println("初始化过滤器");
