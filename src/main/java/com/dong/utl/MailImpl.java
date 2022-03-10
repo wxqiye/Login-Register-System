@@ -30,7 +30,7 @@ public class MailImpl implements Mail {
             @Override
             public PasswordAuthentication getPasswordAuthentication() {
                 //发件人邮件用户名、授权码
-                return new PasswordAuthentication("2984861018@qq.com", "ecibfzobgaqyddgf");
+                return new PasswordAuthentication("2984861018@qq.com", "lwqjeisufegadeic");
             }
         });
 
@@ -41,7 +41,7 @@ public class MailImpl implements Mail {
         Transport ts = session.getTransport();//通过这一次和SMTP服务器的连接对象获取发送邮件的传输对象
 
         //3、使用邮箱的用户名和授权码连上SMTP邮件服务器，即登陆
-        ts.connect("smtp.qq.com", "2984861018@qq.com", "ecibfzobgaqyddgf");
+        ts.connect("smtp.qq.com", "2984861018@qq.com", "lwqjeisufegadeic");
 
         //4、创建邮件对象MimeMessage——点击网页上的写信
         //创建一个邮件对象

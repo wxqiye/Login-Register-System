@@ -8,10 +8,7 @@
     <title>Title</title>
 </head>
 <body>
-<img src=rpath width="30"/> <br/>
-这是头像网址：<br/>
-<%= request.getSession().getAttribute(Constants.USER_PATH)%>
-
+<img src=<%= request.getSession().getAttribute(Constants.USER_PATH)%> width="30"/> <br/>
 <h1>个人信息</h1><br/>
 用户名:<%=request.getSession().getAttribute(Constants.USER_NAME)%><br/>
 生日:<%=request.getSession().getAttribute(Constants.USER_BIRTHDAY)%><br/>

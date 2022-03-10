@@ -32,7 +32,7 @@ public class FileServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         //创建上传文件的路径，不存在则创建
-        String uploadPath = this.getServletContext().getRealPath("/WEB-INF/upload");//获取/WEB-INF下的/upload路径
+        String uploadPath = this.getServletContext().getRealPath("/img");//获取/WEB-INF下的/upload路径
         File uploadFile = new File(uploadPath);//创建一个文件对象
         if (!uploadFile.exists()){
             uploadFile.mkdir();
@@ -151,7 +151,7 @@ public class FileServlet extends HttpServlet {
                     fileItem.delete();
 
                     //将头像存储路径存到session中
-                    String path = realPath+"\\"+fileName;
+                    String path = "img/"+uuidPath+"/"+fileName;
                     req.getSession().setAttribute(Constants.USER_PATH,path);
 
 
